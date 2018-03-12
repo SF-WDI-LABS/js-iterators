@@ -3,7 +3,7 @@
 ## `.forEach()`
 - `[1, 2, 3, 4, 5]`
 
-  --> print out the following
+  --> print out the following: <br/>
   `1` <br/>
   `2` <br/>
   `3` <br/>
@@ -12,12 +12,12 @@
   `Finished!`
 - `[1, 2, 3, 4, 5]`
 
-  --> print out the following
-  `5`
-  `4`
-  `3`
-  `2`
-  `1`
+  --> print out the following: <br/>
+  `5`<br/>
+  `4`<br/>
+  `3`<br/>
+  `2`<br/>
+  `1`<br/>
   `Blastoff!`
 - `[1, 2, 3, 4, 5]`
 
