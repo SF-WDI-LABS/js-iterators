@@ -6,6 +6,7 @@
 Write code using `.map()` to have the following input and output:
 
 - `[3, 2, 5, 7, 8]` 
+
   --> `[9, 4, 25, 49, 64]`
 - `[10, 20, 0, 70, 40, 60]` 
   --> `[1, 2, 0, 7, 4, 6]`
