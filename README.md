@@ -1,13 +1,34 @@
 # JavaScript Iterators
 
 ## `.forEach()`
+- `[1, 2, 3, 4, 5]`
+
+  --> print out the following
+  `1`
+  `2`
+  `3`
+  `4`
+  `5`
+  `Finished!`
+- `[1, 2, 3, 4, 5]`
+
+  --> print out the following
+  `5`
+  `4`
+  `3`
+  `2`
+  `1`
+  `Blastoff!`
+- `[1, 2, 3, 4, 5]`
+
+  --> `[1, 4, 9, 16, 25]`
 
 ## `.map()`
 Write code using `.map()` to have the following input and output:
 
-- `[3, 2, 5, 7, 8]` 
+- `[1, 2, 3, 4, 5]`
 
-  --> `[9, 4, 25, 49, 64]`
+  --> `[1, 4, 9, 16, 25]`
 - `[10, 20, 0, 70, 40, 60]` 
 
   --> `[1, 2, 0, 7, 4, 6]`
