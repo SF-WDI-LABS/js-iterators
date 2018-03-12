@@ -21,6 +21,15 @@
   `Blastoff!`
 - `[1, 2, 3, 4, 5]`
 
+  --> print out the following: <br/>
+  `1 is at index 0` <br/>
+  `2 is at index 1` <br/>
+  `3 is at index 2` <br/>
+  `4 is at index 3` <br/>
+  `5 is at index 4` <br/>
+  `Finished!`
+- `[1, 2, 3, 4, 5]`
+
   --> `[1, 4, 9, 16, 25]`
 
 ## `.map()`
