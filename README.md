@@ -5,10 +5,14 @@
 ## `.map()`
 Write code using `.map()` to have the following input and output:
 
-- `[3, 2, 5, 7, 8]` --> `[9, 4, 25, 49, 64]`
-- `[10, 20, 0, 70, 40, 60]` --> `[1, 2, 0, 7, 4, 6]`
-- `[{name: 'Allie', age: 30}, {name: 'Ben', age: 20}, {name: 'Cara', age: 40}]` --> `['Allie', 'Ben', 'Cara']`
-- `[{name: 'Allie', age: 30}, {name: 'Ben', age: 20}, {name: 'Cara', age: 40}]` --> `[30, 20, 40]`
+- `[3, 2, 5, 7, 8]` 
+  --> `[9, 4, 25, 49, 64]`
+- `[10, 20, 0, 70, 40, 60]` 
+  --> `[1, 2, 0, 7, 4, 6]`
+- `[{name: 'Allie', age: 30}, {name: 'Ben', age: 20}, {name: 'Cara', age: 40}]` 
+  --> `['Allie', 'Ben', 'Cara']`
+- `[{name: 'Allie', age: 30}, {name: 'Ben', age: 20}, {name: 'Cara', age: 40}]` 
+  --> `[30, 20, 40]`
 
 ## `.filter()`
 Write code using `.filter()` to have the following input and output:
