@@ -3,52 +3,40 @@
 Open a [Repl](repl.it/languages/javascript) to do the following exercises. Submit your REPL link to the Project Submission Doc.
 
 ## `.forEach()`
-- `[1, 2, 3, 4, 5]`
-
-  --> print out the following: <br/>
-  `1` <br/>
-  `2` <br/>
-  `3` <br/>
-  `4` <br/>
-  `5` <br/>
-  `Finished!`
-- `[1, 2, 3, 4, 5]`
-
-  --> print out the following: <br/>
-  `5`<br/>
-  `4`<br/>
-  `3`<br/>
-  `2`<br/>
-  `1`<br/>
-  `Blastoff!`
-- `[1, 2, 3, 4, 5]`
-
-  --> print out the following: <br/>
-  `1 is at index 0` <br/>
-  `2 is at index 1` <br/>
-  `3 is at index 2` <br/>
-  `4 is at index 3` <br/>
-  `5 is at index 4` <br/>
-  `Finished!`
-- `[1, 2, 3, 4, 5]`
-
-  --> `[1, 4, 9, 16, 25]`
+	- `countZeros` – counts how many 0s there are in an array
+		- ex: `countZeros([0, 2, 0, 6, 4, 0]) // => 3`
+	- `addUpTo` – adds all numbers up to a given max number
+	    - ex. `addUpTo(5) // => 15 (bc 1 + 2 + 3 + 4 + 5 = 15`
+	    - Hint: define a `var currentSum = 0;` variable in the beginning, and keep adding to it as you loop through all the numbers in the array
+	- `getPersonSentence` – formats an object (with `name`, `age`, and `city` keys) into a sentence
+	    - ex. `getPersonSentence({name: ’Sam’, age: 28, city: 'Los Angeles'}) // => 'Sam is 28 years old and lives in Los Angeles'`
+	- `getDifference` – takes in an array of numbers and returns a sentence with the highest number, lowest number, and the difference between them
+	    - ex: `getDifference([5, 2, 3, 8, 1]) // => 'The highest number is 8. The lowest number is 1. The difference is 7'`
+	    
+	- `countVowels` – counts how many vowels there are in an array
+		- ex: `countVowels(['a', 'b', 'u', 'c', 'g', 'o']) // => 3`
+		- Hint: declare a `var vowels = [‘a’, ‘e’, ‘i', ‘o’, ‘u’]` variable
+		- Hint: use JavaScript’s `.indexOf()` function to test if a letter is in that `vowels` array (look up how `.indexOf()` works, if you are not sure!)
+	- `getPersonSentence_v2` – formats an object (with `name`, `yearOfBirth`, and `city` keys) into a sentence
+	    - ex. `getPersonSentence_v2({name: ’Sam’, yearOfBirth: 1990, city: 'Los Angeles'}) // => 'Sam is 28 years old and lives in Los Angeles'`
+	- `getLongestName` – takes in an array of objects (with `name` and `age` keys), and prints out the longest name
+	    - ex: `getLongestName([{name: ’Sam’, age: 20}, {name: ’Charlotte’, age: 30}, {name: ’Dany’, age: 40}]) => ‘Charlotte’`
+	    - Hint: Use the previously written `getNames()` function to help you
 
 ## `.map()`
 Write code using `.map()` to have the following input and output:
 
-- `[1, 2, 3, 4, 5]`
-
-  --> `[1, 4, 9, 16, 25]`
-- `[10, 20, 0, 70, 40, 60]` 
-
-  --> `[1, 2, 0, 7, 4, 6]`
-- `[{name: 'Allie', age: 30}, {name: 'Ben', age: 20}, {name: 'Cara', age: 40}]` 
-
-  --> `['Allie', 'Ben', 'Cara']`
-- `[{name: 'Allie', age: 30}, {name: 'Ben', age: 20}, {name: 'Cara', age: 40}]` 
-
-  --> `[30, 20, 40]`
+- `getSquares` – takes in an array of numbers and returns an array of their squares
+  - ex: `getSquares([1, 2, 3, 4, 5]) => [1, 4, 9, 16, 25]`
+  
+- `isDivisibleBy3` – takes in an array of numbers and returns an array of booleans indicating whether each element is divisible by 3
+  - ex: `isDivisibleBy3[1, 3, 4, 6, 7, 8, 9] => [false, true, false, true, false, false true]`
+  
+- `getAges` – takes in an array of objects (with `name` and `age` keys) and returns an array of each object’s age
+  - ex: `getAges([{name: ’Sam’, age: 20}, {name: ’Charlotte’, age: 30}, {name: ’Dany’, age: 40}]) => [20, 30, 40]`
+  
+- `getNames` – takes in an array of objects (with `name` and `age` keys) and returns an array of each object’s name
+  - ex: `getNames([{name: ’Sam’, age: 20}, {name: ’Charlotte’, age: 30}, {name: ’Dany’, age: 40}]) => [‘Sam’, ‘Charlotte’, ‘Dany’]`
 
 ## `.filter()`
 Write code using `.filter()` to have the following input and output:
