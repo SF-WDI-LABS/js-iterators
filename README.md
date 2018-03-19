@@ -6,12 +6,15 @@ Open a [Repl](repl.it/languages/javascript) to do the following exercises. Submi
 - `getCounter` – counts how many of each charater are in a string and returns in an object
 	- ex: `getCounter('mom') => {m: 2, o: 1}`
 	- ex: `getCounter('caterpillar') => {c: 1, a: 2, t: 1, e: 1, r: 2, i: 1, l: 2}`
+	
 - `countIntegers` – counts how many integers there are in an array
 	- ex: `countIntegers([4, 2.2, 5, 6, 4.2, 8.2, 4]) // => 4`
 	- Hint: Google how you can check if a number is an integer in JavaScript
+	
 - `sumIsDivisibleBy5` – adds all numbers in an array and returns if the sum is divisible by 5
 	- ex. `sumIsDivisibleBy5([1, 2, 3, 4, 5]) // => true (bc 1 + 2 + 3 + 4 + 5 = 15, and 15 is divisible by 5)`
 	- Hint: define `var totalSum = 0;` in the beginning, and remember what modulus does
+	
 - `getPersonSentence` – formats an object (with `name`, `yearOfBirth`, and `city` keys) into a sentence
 	- ex. `getPersonSentence({name: ’Sam’, yearOfBirth: 1990, city: 'Los Angeles'}) // => 'Sam is 28 years old and lives in Los Angeles'`
 	- Hint: Google how you can get the current year in JavaScript (without hard-coding in `var currentYear = 2018`)
