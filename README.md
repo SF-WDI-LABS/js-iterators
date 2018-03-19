@@ -1,6 +1,6 @@
 # JavaScript Iterators
 
-Open a [Repl](repl.it/languages/javascript) to do the following exercises. Submit your REPL link to the Project Submission Doc.
+Open a [Repl](http://repl.it/languages/javascript) to do the following exercises. Submit your REPL link to the Project Submission Doc.
 
 ## `.forEach()`
 - `getCounter` – counts how many of each charater are in a string and returns in an object
