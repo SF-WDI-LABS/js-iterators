@@ -1,5 +1,7 @@
 # JavaScript Iterators
 
+Open a [Repl](repl.it/languages/javascript) to do the following exercises. Submit your REPL link to the Project Submission Doc.
+
 ## `.forEach()`
 - `[1, 2, 3, 4, 5]`
 
