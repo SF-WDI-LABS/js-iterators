@@ -3,25 +3,25 @@
 Open a [Repl](repl.it/languages/javascript) to do the following exercises. Submit your REPL link to the Project Submission Doc.
 
 ## `.forEach()`
-	- `countZeros` – counts how many 0s there are in an array
-		- ex: `countZeros([0, 2, 0, 6, 4, 0]) // => 3`
-	- `addUpTo` – adds all numbers up to a given max number
-	    - ex. `addUpTo(5) // => 15 (bc 1 + 2 + 3 + 4 + 5 = 15`
-	    - Hint: define a `var currentSum = 0;` variable in the beginning, and keep adding to it as you loop through all the numbers in the array
-	- `getPersonSentence` – formats an object (with `name`, `age`, and `city` keys) into a sentence
-	    - ex. `getPersonSentence({name: ’Sam’, age: 28, city: 'Los Angeles'}) // => 'Sam is 28 years old and lives in Los Angeles'`
+- `countZeros` – counts how many 0s there are in an array
+	- ex: `countZeros([0, 2, 0, 6, 4, 0]) // => 3`
+- `addUpTo` – adds all numbers up to a given max number
+	- ex. `addUpTo(5) // => 15 (bc 1 + 2 + 3 + 4 + 5 = 15`
+	- Hint: define a `var currentSum = 0;` variable in the beginning, and keep adding to it as you loop through all the numbers in the array
+- `getPersonSentence` – formats an object (with `name`, `age`, and `city` keys) into a sentence
+	- ex. `getPersonSentence({name: ’Sam’, age: 28, city: 'Los Angeles'}) // => 'Sam is 28 years old and lives in Los Angeles'`
 	- `getDifference` – takes in an array of numbers and returns a sentence with the highest number, lowest number, and the difference between them
-	    - ex: `getDifference([5, 2, 3, 8, 1]) // => 'The highest number is 8. The lowest number is 1. The difference is 7'`
+	- ex: `getDifference([5, 2, 3, 8, 1]) // => 'The highest number is 8. The lowest number is 1. The difference is 7'`
 	    
-	- `countVowels` – counts how many vowels there are in an array
-		- ex: `countVowels(['a', 'b', 'u', 'c', 'g', 'o']) // => 3`
-		- Hint: declare a `var vowels = [‘a’, ‘e’, ‘i', ‘o’, ‘u’]` variable
-		- Hint: use JavaScript’s `.indexOf()` function to test if a letter is in that `vowels` array (look up how `.indexOf()` works, if you are not sure!)
-	- `getPersonSentence_v2` – formats an object (with `name`, `yearOfBirth`, and `city` keys) into a sentence
-	    - ex. `getPersonSentence_v2({name: ’Sam’, yearOfBirth: 1990, city: 'Los Angeles'}) // => 'Sam is 28 years old and lives in Los Angeles'`
-	- `getLongestName` – takes in an array of objects (with `name` and `age` keys), and prints out the longest name
-	    - ex: `getLongestName([{name: ’Sam’, age: 20}, {name: ’Charlotte’, age: 30}, {name: ’Dany’, age: 40}]) => ‘Charlotte’`
-	    - Hint: Use the previously written `getNames()` function to help you
+- `countVowels` – counts how many vowels there are in an array
+	- ex: `countVowels(['a', 'b', 'u', 'c', 'g', 'o']) // => 3`
+	
+- `getPersonSentence_v2` – formats an object (with `name`, `yearOfBirth`, and `city` keys) into a sentence
+	- ex. `getPersonSentence_v2({name: ’Sam’, yearOfBirth: 1990, city: 'Los Angeles'}) // => 'Sam is 28 years old and lives in Los Angeles'`
+
+- `getLongestName` – takes in an array of objects (with `name` and `age` keys), and prints out the longest name
+	- ex: `getLongestName([{name: ’Sam’, age: 20}, {name: ’Charlotte’, age: 30}, {name: ’Dany’, age: 40}]) => ‘Charlotte’`
+	- Hint: Use the previously written `getNames()` function to help you
 
 ## `.map()`
 Write code using `.map()` to have the following input and output:
